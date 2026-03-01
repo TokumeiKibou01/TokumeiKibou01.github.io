@@ -1,0 +1,31 @@
+.text {
+    text-align: center;  /* 水平での中央 */
+    font-family: cursive;  /* フォント */
+}
+
+.myBox {
+    margin: auto; /* スペース：自動調整 */
+    justify-content: center;
+    display: flex; /* 子要素を水平 */
+    width: 75%; /* 幅：画面幅の50% */
+    height: auto; /* 高さ：自動調整 */
+    border-radius: 20px; /* 角丸にする */
+    background-color: #ecf4f4; /* 背景 */
+    border: 3px solid black; /* 縁取り */
+}
+
+.Button {
+    width: auto;
+    margin: 0.5em; /* 外側に空白を入れる */
+    padding: 0.5em 3.0em; /* 内側に空白を作り、伸ばす [縦サイズ 横サイズ]*/
+    text-decoration: none; /* none: 下線を消す */
+    background: #668ad8; /*ボタン色*/
+    color: #ffffff; /* 文字の色 */
+    font-family: system-ui; /* フォント */
+    border-bottom: solid 4px #627295; /* 下にある影 */
+    border-radius: 10px; /* 角丸 */
+}
+
+.Button:active {
+    transform: translateY(5px); /* y座標を下げることで、押している感じになる */
+}
